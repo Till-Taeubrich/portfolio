@@ -1,6 +1,9 @@
+import "./style.css";
+import HeroSection from "./Sections/HeroSection";
+
 function App() {
   return (
-    <h1>In Progress</h1>
+    <HeroSection />
   );
 }
 

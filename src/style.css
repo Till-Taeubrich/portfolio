@@ -1,0 +1,32 @@
+:root {
+  --green: #91b946;
+  --white: #fff;
+}
+
+body {
+  margin: 0;
+  background-image: radial-gradient(var(--white), var(--green));;
+  background-color: var(--green);
+  font-family: 'Share Tech Mono', monospace;
+}
+
+.hero-section {
+  height: 100vh;
+}
+
+.hero-section .content {
+  display: flex;
+}
+
+.hero-section .left-container {
+  background-color: white;
+}
+
+.hero-section .right-container {
+  flex-grow: 1;
+  background-color: #91b946;
+}
+
+span {
+  font-size: 1.5rem;
+}
